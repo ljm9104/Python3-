@@ -46,5 +46,5 @@ class MongoPipeline(object):
         return item
 
     # spider关闭资源
-    def close_spider(self):
+    def close_spider(self, spider):
         self.client.close()
