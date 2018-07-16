@@ -102,3 +102,6 @@ ENV/
 
 # idea folder
 .idea/
+
+images360/images
+images360/mySpider.log
